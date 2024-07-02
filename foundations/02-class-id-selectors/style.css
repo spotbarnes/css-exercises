@@ -1,0 +1,16 @@
+.pinkclass {
+   background-color: #ff9980; 
+   font-family: 'DejaVu Sans',  Verdana, sans-serif;
+}
+.font24 {
+    font-size: 24px;
+}
+#blooid {
+    color: #0000ff;
+    font-size: 36px;
+}
+#greeenid {
+    background-color: #66ff99;
+    font-weight: bold;
+
+}
