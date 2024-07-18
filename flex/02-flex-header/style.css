@@ -1,9 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  height: 70px;
+  padding: 8px;
   display: flex;
-  flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -21,18 +21,10 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 10px;
-  padding-right: 40px;
+  margin: 0;
+  padding: 0;
  
 }
-
-.left-links {
-  margin-right: auto;
-}
-
-.right-links {
-  margin-left: auto;
-}
-
 
 a {
   font-size: 22px;
@@ -40,5 +32,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  flex: auto;
+ 
 }
